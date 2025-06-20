@@ -12,3 +12,17 @@
   height: 50px;
   filter: invert(1);
 }
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link--list {
+    display: flex;
+    justify-content: space-between;
+}
