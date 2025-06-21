@@ -24,6 +24,7 @@ nav {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    height: 100px;
 }
 
 #personal-logo {
@@ -35,4 +36,8 @@ nav {
 .nav__link--list {
     display: flex;
     justify-content: space-between;
+}
+
+.nav__link {
+    margin: 0 12px;
 }
