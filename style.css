@@ -131,6 +131,17 @@ LANDING PAGE
     width: 4px;
     height: 6px;
     background-color: #242424;
+    border-radius: 2px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(-3px)
+    }
 }
 
 
