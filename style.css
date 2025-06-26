@@ -120,7 +120,7 @@ LANDING PAGE
     width: 20px;
     height: 30px;
     border: 2px solid #242424;
-    border-radius: 24%;
+    border-radius: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,6 +132,7 @@ LANDING PAGE
     height: 6px;
     background-color: #242424;
     border-radius: 2px;
+    animation: scroll 1000ms infinite alternate-reverse;
 }
 
 @keyframes scroll {
