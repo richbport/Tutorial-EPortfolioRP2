@@ -221,11 +221,18 @@ PROJECTS
   overflow: hidden;
 }
 
+.project__wrapper:hover .project__description {
+    opacity: 1;
+    transform: translateY(-50%)
+}
+
 .project__description {
   position: absolute;
   top: 50%;
   left: 90px;
-  transform: translateY(-50%);
+  transform: translateY(100%);
+  opacity: 0;
+  transition: opacity 300ms, transform 450ms ease;
   color: white;
   max-width: 550px;
 }
@@ -244,8 +251,16 @@ PROJECTS
     font-size: 40px;
 }
 
+.project__description--sub-title {
+    margin-top: 8px;
+}
+
 .project__description--link {
     color: white;
     font-size: 20px;
     margin-right: 16px;
+}
+
+.project__description--para {
+    margin: 16px 0;
 }
