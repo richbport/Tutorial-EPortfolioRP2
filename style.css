@@ -239,3 +239,13 @@ PROJECTS
   background-color: #1c1d25;
   opacity: 0.7;
 }
+
+.project__description--title {
+    font-size: 40px;
+}
+
+.project__description--link {
+    color: white;
+    font-size: 20px;
+    margin-right: 16px;
+}
