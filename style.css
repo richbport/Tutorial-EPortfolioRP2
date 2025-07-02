@@ -269,7 +269,7 @@ MODAL
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: all 300ms ease;
+    transition: all 350ms ease;
 }
 
 .modal__language:hover .language__name {
@@ -285,7 +285,7 @@ MODAL
     position: absolute;
     bottom: -10px;
     transform: scale(0);
-    transition: all 300ms ease;
+    transition: all 350ms ease;
 }
 
 .modal__language--img {
