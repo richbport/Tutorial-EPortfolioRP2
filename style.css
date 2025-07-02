@@ -257,6 +257,10 @@ MODAL
     flex-direction: column;
 }
 
+.modal__languages {
+    display: flex;
+}
+
 .modal__contact {
     background-color: #242424;
     color: white;
