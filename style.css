@@ -28,6 +28,10 @@ section {
   background-color: rgb(245, 245, 245);
 }
 
+input, textarea {
+    width: 100%;
+}
+
 .container {
   padding: 64px 0;
   width: 100%;
