@@ -30,6 +30,13 @@ section {
 
 input, textarea {
     width: 100%;
+    background-color: #242424;
+    color: #fff;
+    outline: none;
+    border: 3px solid #c0c4cc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .container {
