@@ -37,6 +37,19 @@ input, textarea {
     border-top: none;
     border-left: none;
     border-right: none;
+    height: 40px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+    margin-top: 8px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 .container {
@@ -92,10 +105,6 @@ input, textarea {
 .link__hover-effect--white:after {
   background-color: #fff;
 }
-
-/* .link__hover-effect--black:after {
-    background-color: #242424;
-} */
 
 .link__hover-effect:hover:after {
   left: 0;
@@ -319,6 +328,10 @@ MODAL
 .modal__para {
     margin-bottom: 12px;
     line-height: 1.75
+}
+
+.form__item {
+    margin-bottom: 20px;
 }
 
 /* 
