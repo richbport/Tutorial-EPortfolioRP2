@@ -336,6 +336,15 @@ MODAL
   margin-bottom: 20px;
 }
 
+.form__submit {
+    background-color: #f06449;
+    border: 2px solid #f06449;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    max-width: 240px;
+}
+
 /* 
 
 PROJECTS
