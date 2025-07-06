@@ -39,6 +39,7 @@ textarea {
   border-left: none;
   border-right: none;
   height: 40px;
+  transition: all 300ms ease;
 }
 
 textarea {
