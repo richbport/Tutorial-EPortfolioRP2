@@ -53,6 +53,14 @@ label {
   margin-bottom: 8px;
 }
 
+input:hover, textarea:hover {
+    border-color: #dcdfe6;
+}
+
+input:focus, textarea:focus {
+    border-color: #f06449;
+}
+
 .container {
   padding: 64px 0;
   width: 100%;
