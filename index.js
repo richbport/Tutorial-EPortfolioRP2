@@ -2,9 +2,9 @@
 // service_9msdo9m
 // -a810SH9YGkTxZ96D
 
-function contact(event) {
+async function contact(event) {
   event.preventDefault();
-  emailjs
+  await emailjs
     .sendForm(
       "service_9msdo9m",
       "template_kjyuimq",
