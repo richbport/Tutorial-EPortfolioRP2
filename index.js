@@ -3,6 +3,15 @@
 // -a810SH9YGkTxZ96D
 
 function contact(event) {
-    event.preventDefault();
-    console.log('it worked')
+  event.preventDefault();
+  emailjs
+    .sendForm(
+      "service_9msdo9m",
+      "template_kjyuimq",
+      event.target,
+      "-a810SH9YGkTxZ96D"
+    )
+    .then(() => {
+      console.log("this worked1");
+    });
 }
