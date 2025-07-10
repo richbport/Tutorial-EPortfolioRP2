@@ -18,7 +18,9 @@ function contact(event) {
   const success = document.querySelector(".modal__overlay--success");
   loading.classList += " modal__overlay--visible";
   setTimeout(() => {
-    loading.classList.remove("modal__overlay--visible")
+    loading.classList.remove("modal__overlay--visible");
+    success.classList += " modal__overlay--visible";
     console.log("it worked 2");
-  }, 500);
+  }, 1000);
+
 }
