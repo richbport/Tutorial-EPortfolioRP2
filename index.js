@@ -25,9 +25,9 @@ function contact(event) {
         "The email service is temporarily unavailable. Please contact me directly at richbport@gmail.com."
       );
     });
-
 }
 
 function toggleModal() {
-    
+  // toggle modal
+  console.log("toggleModal()");
 }
