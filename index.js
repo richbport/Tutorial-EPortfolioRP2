@@ -27,7 +27,9 @@ function contact(event) {
     });
 }
 
+let isModalOpen = false;
 function toggleModal() {
+    isModalOpen = !isModalOpen;
   // toggle modal
-  console.log("toggleModal()");
+  document.body.classList += "modal--open"
 }
