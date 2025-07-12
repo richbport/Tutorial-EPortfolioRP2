@@ -132,6 +132,14 @@ nav,
   transition: all 600ms;
 }
 
+modal--open nav,
+modal--open .scroll,
+modal--open .header {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 400ms;
+}
+
 /* 
 
 LANDING PAGE
@@ -289,7 +297,7 @@ MODAL
   transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
 }
 
-.modal--open .modal{
+.modal--open .modal {
   z-index: 60;
   box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
   visibility: visible;
