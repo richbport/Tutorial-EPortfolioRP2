@@ -150,6 +150,15 @@ nav,
   color: white;
 }
 
+.dark-theme section {
+  background-color: #242424;
+}
+
+.dark-theme #personal-logo {
+  filter: none;
+  background-color: #242424;
+}
+
 /* 
 
 LANDING PAGE
