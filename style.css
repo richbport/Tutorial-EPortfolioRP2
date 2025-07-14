@@ -614,3 +614,65 @@ footer {
 .footer__copyright {
   color: white;
 }
+
+/*
+
+SHAPES
+
+first row shapes
+height = 35vh
+
+second row shapes
+height = 70vh
+
+third row shapes
+height = 95vh
+
+first column shapes
+width = 5vw
+
+second column shapes
+width = 50vw
+
+third column shapes
+width = 80vw
+
+*/
+
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+.shape--0 {
+  height: 35vh;
+  width: 5vw;
+}
+
