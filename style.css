@@ -680,3 +680,12 @@ width = 80vw
   left: 80vw;
 }
 
+/* small phones, tablets, large smart phones */
+@media (max-width: 768px) {
+  .title {
+    font-size: 80px;
+  }
+  .header__para {
+    font-size: 20px;
+  }
+}
