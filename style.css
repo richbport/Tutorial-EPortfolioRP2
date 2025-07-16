@@ -585,6 +585,7 @@ FOOTER
 */
 
 footer {
+  position: relative;
   background-color: #242424;
   display: flex;
   padding: 4% 0;
@@ -687,5 +688,12 @@ width = 80vw
   }
   .header__para {
     font-size: 20px;
+  }
+  .modal {
+    top: 0;
+    left: 0;
+    transform: none;
+    height: auto;
+    width: 100%;
   }
 }
