@@ -723,6 +723,9 @@ width = 80vw
   .header__para {
     font-size: 18px;
   }
+  .section__title {
+    font-size: 36px;
+  }
   .nav__link:first-child {
     display: none;
   }
